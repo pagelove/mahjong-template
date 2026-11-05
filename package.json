@@ -11,7 +11,10 @@
     "author-levels": "node tools/author-levels.mjs",
     "check": "node tools/check.mjs",
     "gate": "node tools/gate.mjs",
-    "prepare": "node tools/prepare-template.mjs"
+    "prepare": "node tools/prepare-template.mjs",
+    "deploy": "node scripts/deploy.mjs",
+    "verify": "node scripts/deploy.mjs --verify",
+    "test:deployment": "node --test tests/deployment.test.mjs"
   },
   "devDependencies": {
     "linkedom": "0.18.12"
