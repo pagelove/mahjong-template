@@ -1,5 +1,5 @@
 {
-  "name": "mahjong-garden",
+  "name": "@pagelove/mahjong-template",
   "version": "1.9.1",
   "type": "module",
   "description": "A quiet mahjong solitaire game with 60 levels and a personal tile studio",
@@ -10,7 +10,8 @@
     "serve": "node tools/serve.mjs",
     "author-levels": "node tools/author-levels.mjs",
     "check": "node tools/check.mjs",
-    "gate": "node tools/gate.mjs"
+    "gate": "node tools/gate.mjs",
+    "prepare": "node tools/prepare-template.mjs"
   },
   "devDependencies": {
     "linkedom": "0.18.12"
@@ -18,5 +19,6 @@
   "packageManager": "pnpm@11.25.0",
   "engines": {
     "node": ">=22"
-  }
+  },
+  "private": true
 }

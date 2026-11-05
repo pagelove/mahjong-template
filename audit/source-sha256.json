@@ -1,0 +1,894 @@
+{
+  "utc": "2026-11-05T04:12:06.005Z",
+  "actor": "Codex",
+  "repo": "pagelove/mahjong-template",
+  "scope": "Candidate source closure; audit files excluded to avoid recursive receipts",
+  "status": "Implementation candidate; live gates listed in REVIEW.md",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 211,
+      "sha256": "b49eafbc8d01493dc6ab2b0aa0938fffb03cc1ff1b92b478158da9bc849a7a41"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 40,
+      "sha256": "289acc47f5ca23c64cdd74bdd37c0276f5fa285a93a9904534098ca9c089da15"
+    },
+    {
+      "path": ".node-version",
+      "bytes": 8,
+      "sha256": "7e8a2fa94951112b894a3dbe3d05efef5e9263741fa49125f0a70f40fedab4cc"
+    },
+    {
+      "path": "ASSETS.md",
+      "bytes": 257,
+      "sha256": "82872f10d780a4d373f4c626dcbfe095089484615720b7b4ab1e6048e6650456"
+    },
+    {
+      "path": "DESIGN-LICENSE",
+      "bytes": 1203,
+      "sha256": "25768f0f5a730893110ab62e341ecb3f1b7171251a8695027c28bcb8c6223ff1"
+    },
+    {
+      "path": "DESIGN.md",
+      "bytes": 379,
+      "sha256": "9fc9d84795043f1a5bbe6602f1426e7e2b4343ea5830df48f92d352daf007091"
+    },
+    {
+      "path": "GAME-PLAN.md",
+      "bytes": 19607,
+      "sha256": "49b2c7226842be1fae5e28db3f1e8257435db0ff50e8eded171447fe4fd2540f"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1093,
+      "sha256": "19cd5b563fe02c14dcc3de0340767f3c3270e4daf9fd3fc6d948e9c624009c05"
+    },
+    {
+      "path": "README.md",
+      "bytes": 21195,
+      "sha256": "08d58c78ec7bdae61cd50e84a065fb058f8c606cf20cd7bd28b9d417f31d2903"
+    },
+    {
+      "path": "REVIEW.md",
+      "bytes": 1406,
+      "sha256": "2b66f7f320f29425b23e613c49ab0324edce8bbeb690d5e8455929aefadfe3c2"
+    },
+    {
+      "path": "app.mjs",
+      "bytes": 60531,
+      "sha256": "e6d2e6d5951705e012947dbe1afc11c60cd36b6b7d58f6cccdd296792e93e7d2"
+    },
+    {
+      "path": "assets/ASSETS.md",
+      "bytes": 1788,
+      "sha256": "1c167b6b461c84e9d1a2fde96c8950fe2899044ecc2ef417a8319786647af2d6"
+    },
+    {
+      "path": "assets/apple-touch-icon.png",
+      "bytes": 4741,
+      "sha256": "9b2f0107ea7a28c6fc93840b3bd55b3b818331614461d613107260cde19ad7b2"
+    },
+    {
+      "path": "assets/icon-192.png",
+      "bytes": 4203,
+      "sha256": "7dbdee5b5b787e477965a546a52a4a9bfab2448a810d091e8b9234458ef63e23"
+    },
+    {
+      "path": "assets/icon-512.png",
+      "bytes": 16837,
+      "sha256": "16ac1320a6e486137b03e276a00af6f78252331a05d09fa583d4d293db54e60d"
+    },
+    {
+      "path": "assets/social-card.png",
+      "bytes": 70050,
+      "sha256": "1d9fe4e3219ed2ab35b8f583e9a88bce9c742195c20957db21843ad06be776e3"
+    },
+    {
+      "path": "assets/social-card.svg",
+      "bytes": 2085,
+      "sha256": "4d2545f0841f3df8d5d219a027d497dbe916af38bf74f12876d42ce91c7f5d0c"
+    },
+    {
+      "path": "audio.mjs",
+      "bytes": 5846,
+      "sha256": "9ef843230faf0d75bdd733c1d1b7581bda5ab3413b32cdfbd348c2ec7deb89ae"
+    },
+    {
+      "path": "boot.mjs",
+      "bytes": 403,
+      "sha256": "5962acd91eed9a53f727e143c17274cafed6f7115b991f01852edde05100969a"
+    },
+    {
+      "path": "brand.css",
+      "bytes": 27023,
+      "sha256": "5ba9ee26e435addfa51a5dae6ffaa5d51e6f9db23144c4de42b53eed52573145"
+    },
+    {
+      "path": "bun.lock",
+      "bytes": 3156,
+      "sha256": "a79b77bd42d842fa4207756bceee281bd3ee44cc2641c39b6b07327a2ef2e8eb"
+    },
+    {
+      "path": "content/levels.html",
+      "bytes": 263057,
+      "sha256": "143978b2fb5d64668f40b10564ab59e184c3a8556b8f1148fa52884873fa5552"
+    },
+    {
+      "path": "core.mjs",
+      "bytes": 11733,
+      "sha256": "55f9f767de4a22688c983d169071dd1b13755c2739bfc9eacf9e4cd6f938c6cc"
+    },
+    {
+      "path": "faces.mjs",
+      "bytes": 4110,
+      "sha256": "7ce3fd7933dd05a55830551d51b0df352e91915a3dce5d927d8d331da76f5c56"
+    },
+    {
+      "path": "favicon.svg",
+      "bytes": 376,
+      "sha256": "744f271d7e716c7a61971f34d672aa5e7267483d0d0851ffe28c35b59ea71739"
+    },
+    {
+      "path": "game.css",
+      "bytes": 20878,
+      "sha256": "2076210b61d995c1260ef65804cc9922d1c7927bc22eca1f43789a7b60759d4f"
+    },
+    {
+      "path": "garden-core.mjs",
+      "bytes": 12657,
+      "sha256": "2a6e48dcdc3a8598208afd0f3974353409fea8bf2ba4355ea2f2cf5a0d4392ab"
+    },
+    {
+      "path": "garden-ui.mjs",
+      "bytes": 12055,
+      "sha256": "7d513148580dcd891d3669d84fbb7c7d19987faf930707702e1befb48ae9181a"
+    },
+    {
+      "path": "garden.css",
+      "bytes": 3890,
+      "sha256": "0dbcc5dfd9d36c33099add1bd608dd0580818747e695300683b2e5a6da387e91"
+    },
+    {
+      "path": "image-input.mjs",
+      "bytes": 1796,
+      "sha256": "d4735c4184f9a8549bd6641fb06939149fb9744fcf1eb668f071032ce3e7ba81"
+    },
+    {
+      "path": "index.html",
+      "bytes": 24307,
+      "sha256": "34db9f0c09783b8865fc0d0d11f4f5d79765738a41bd1de2ef9e52b909869155"
+    },
+    {
+      "path": "leaderboard.mjs",
+      "bytes": 26627,
+      "sha256": "a6596e19d8ebb406275db661f1f443beb942d9fb71cafafdabcb07d67316f670"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 438,
+      "sha256": "07ac3b5dd2772a5bdfd087b07acbb640a97580318f9e5965ce434a2080b4f53d"
+    },
+    {
+      "path": "operations.mjs",
+      "bytes": 2292,
+      "sha256": "8172c535ebefa56115513fd83cf96fc91c9f9a4beade3f342be43d90ee0c8a16"
+    },
+    {
+      "path": "package.json",
+      "bytes": 649,
+      "sha256": "8dda6a136741ff20a0cb47383600cd4e75836da365a40b501c8ac641559b437c"
+    },
+    {
+      "path": "pagelove.html",
+      "bytes": 328,
+      "sha256": "856246bc86492d1e6c1e5c0a88b70ddb27e3386f71d7484d2dddba32edaa643e"
+    },
+    {
+      "path": "parallax.mjs",
+      "bytes": 3265,
+      "sha256": "e2da3f41c3b8074825fdf6d7f1e7e5372e6eb41b787951124f2cd9f600c42548"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "bytes": 3643,
+      "sha256": "55f7374d8377dd77c2089246b3d20b69823cd0704b4877a0a00f6cd3e5aaaa27"
+    },
+    {
+      "path": "profile.mjs",
+      "bytes": 3376,
+      "sha256": "7c3bce0911a756e8fd8a8cb666ca728b883a0c6ace97c2e7eb10e3913dd45d1b"
+    },
+    {
+      "path": "pwa.mjs",
+      "bytes": 4892,
+      "sha256": "4e28e0b5848b3845bef99e27b6289e3d776ed66ddd5c98f5d68679dd36a9992a"
+    },
+    {
+      "path": "scenery.mjs",
+      "bytes": 6949,
+      "sha256": "9b725030eedd1f6bd889ca5f38b6200616fa563d912b236bd6a2840e6f5555ed"
+    },
+    {
+      "path": "scoring.mjs",
+      "bytes": 964,
+      "sha256": "8aa6e8725389f191cb82b9d7e6c7e280624dbe03f21a60fd94ef7d6168538f08"
+    },
+    {
+      "path": "site/index.html",
+      "bytes": 99599,
+      "sha256": "e94570a724674f80d16a97867306ea36869f3457505e0e827dc120152b806ce3"
+    },
+    {
+      "path": "site/manifest.webmanifest",
+      "bytes": 492,
+      "sha256": "0eb48f996aaae2d2c6f085993276d0f69da0db3ae9ca10a743cf0befd9486b0d"
+    },
+    {
+      "path": "site/release.json",
+      "bytes": 17049,
+      "sha256": "bc092057e6bf1b27cc278ac90b8c822f1fcc760d9e3722bb6a71aac8376e8aee"
+    },
+    {
+      "path": "site/releases/mg-878b41214345b9/app.mjs",
+      "bytes": 60531,
+      "sha256": "e6d2e6d5951705e012947dbe1afc11c60cd36b6b7d58f6cccdd296792e93e7d2"
+    },
+    {
+      "path": "site/releases/mg-878b41214345b9/assets/apple-touch-icon.png",
+      "bytes": 4741,
+      "sha256": "9b2f0107ea7a28c6fc93840b3bd55b3b818331614461d613107260cde19ad7b2"
+    },
+    {
+      "path": "site/releases/mg-878b41214345b9/assets/icon-192.png",
+      "bytes": 4203,
+      "sha256": "7dbdee5b5b787e477965a546a52a4a9bfab2448a810d091e8b9234458ef63e23"
+    },
+    {
+      "path": "site/releases/mg-878b41214345b9/assets/icon-512.png",
+      "bytes": 16837,
+      "sha256": "16ac1320a6e486137b03e276a00af6f78252331a05d09fa583d4d293db54e60d"
+    },
+    {
+      "path": "site/releases/mg-878b41214345b9/assets/social-card.png",
+      "bytes": 70050,
+      "sha256": "1d9fe4e3219ed2ab35b8f583e9a88bce9c742195c20957db21843ad06be776e3"
+    },
+    {
+      "path": "site/releases/mg-878b41214345b9/audio.mjs",
+      "bytes": 5846,
+      "sha256": "9ef843230faf0d75bdd733c1d1b7581bda5ab3413b32cdfbd348c2ec7deb89ae"
+    },
+    {
+      "path": "site/releases/mg-878b41214345b9/boot.mjs",
+      "bytes": 403,
+      "sha256": "5962acd91eed9a53f727e143c17274cafed6f7115b991f01852edde05100969a"
+    },
+    {
+      "path": "site/releases/mg-878b41214345b9/content/levels.html",
+      "bytes": 128847,
+      "sha256": "994af2b67338c14f8178f6a91114edff8456ffaed0815b61575152b9410f749a"
+    },
+    {
+      "path": "site/releases/mg-878b41214345b9/core.mjs",
+      "bytes": 11733,
+      "sha256": "55f9f767de4a22688c983d169071dd1b13755c2739bfc9eacf9e4cd6f938c6cc"
+    },
+    {
+      "path": "site/releases/mg-878b41214345b9/faces.mjs",
+      "bytes": 4110,
+      "sha256": "7ce3fd7933dd05a55830551d51b0df352e91915a3dce5d927d8d331da76f5c56"
+    },
+    {
+      "path": "site/releases/mg-878b41214345b9/favicon.svg",
+      "bytes": 376,
+      "sha256": "744f271d7e716c7a61971f34d672aa5e7267483d0d0851ffe28c35b59ea71739"
+    },
+    {
+      "path": "site/releases/mg-878b41214345b9/game.css",
+      "bytes": 20878,
+      "sha256": "2076210b61d995c1260ef65804cc9922d1c7927bc22eca1f43789a7b60759d4f"
+    },
+    {
+      "path": "site/releases/mg-878b41214345b9/garden-core.mjs",
+      "bytes": 12642,
+      "sha256": "057d387acc625f49efe31821449a2174c4e828578f6a338354b21d3c17da2f9f"
+    },
+    {
+      "path": "site/releases/mg-878b41214345b9/garden-ui.mjs",
+      "bytes": 12055,
+      "sha256": "7d513148580dcd891d3669d84fbb7c7d19987faf930707702e1befb48ae9181a"
+    },
+    {
+      "path": "site/releases/mg-878b41214345b9/garden.css",
+      "bytes": 3890,
+      "sha256": "0dbcc5dfd9d36c33099add1bd608dd0580818747e695300683b2e5a6da387e91"
+    },
+    {
+      "path": "site/releases/mg-878b41214345b9/image-input.mjs",
+      "bytes": 1796,
+      "sha256": "d4735c4184f9a8549bd6641fb06939149fb9744fcf1eb668f071032ce3e7ba81"
+    },
+    {
+      "path": "site/releases/mg-878b41214345b9/leaderboard.mjs",
+      "bytes": 26627,
+      "sha256": "a6596e19d8ebb406275db661f1f443beb942d9fb71cafafdabcb07d67316f670"
+    },
+    {
+      "path": "site/releases/mg-878b41214345b9/operations.mjs",
+      "bytes": 2292,
+      "sha256": "8172c535ebefa56115513fd83cf96fc91c9f9a4beade3f342be43d90ee0c8a16"
+    },
+    {
+      "path": "site/releases/mg-878b41214345b9/parallax.mjs",
+      "bytes": 3265,
+      "sha256": "e2da3f41c3b8074825fdf6d7f1e7e5372e6eb41b787951124f2cd9f600c42548"
+    },
+    {
+      "path": "site/releases/mg-878b41214345b9/profile.mjs",
+      "bytes": 3376,
+      "sha256": "7c3bce0911a756e8fd8a8cb666ca728b883a0c6ace97c2e7eb10e3913dd45d1b"
+    },
+    {
+      "path": "site/releases/mg-878b41214345b9/pwa.mjs",
+      "bytes": 4892,
+      "sha256": "4e28e0b5848b3845bef99e27b6289e3d776ed66ddd5c98f5d68679dd36a9992a"
+    },
+    {
+      "path": "site/releases/mg-878b41214345b9/scenery.mjs",
+      "bytes": 6949,
+      "sha256": "9b725030eedd1f6bd889ca5f38b6200616fa563d912b236bd6a2840e6f5555ed"
+    },
+    {
+      "path": "site/releases/mg-878b41214345b9/scoring.mjs",
+      "bytes": 964,
+      "sha256": "8aa6e8725389f191cb82b9d7e6c7e280624dbe03f21a60fd94ef7d6168538f08"
+    },
+    {
+      "path": "site/releases/mg-878b41214345b9/storage.mjs",
+      "bytes": 3714,
+      "sha256": "b5c0f0322e23cedeff9b43c6ca19c0db21029d197eccbdc76cd9cf684e344461"
+    },
+    {
+      "path": "site/releases/mg-878b41214345b9/style.css",
+      "bytes": 23441,
+      "sha256": "199981196c6b2944aed4c02ada63381962afddbbe4516a52b9473350289740c4"
+    },
+    {
+      "path": "site/releases/mg-878b41214345b9/tile-input.mjs",
+      "bytes": 2336,
+      "sha256": "f8eb6c5efa768ef2e3f57ea797ebeaa17daab8c8469fea2df492c62284609759"
+    },
+    {
+      "path": "site/releases/mg-acda7cabc743b1/app.mjs",
+      "bytes": 60531,
+      "sha256": "e6d2e6d5951705e012947dbe1afc11c60cd36b6b7d58f6cccdd296792e93e7d2"
+    },
+    {
+      "path": "site/releases/mg-acda7cabc743b1/assets/apple-touch-icon.png",
+      "bytes": 4741,
+      "sha256": "9b2f0107ea7a28c6fc93840b3bd55b3b818331614461d613107260cde19ad7b2"
+    },
+    {
+      "path": "site/releases/mg-acda7cabc743b1/assets/icon-192.png",
+      "bytes": 4203,
+      "sha256": "7dbdee5b5b787e477965a546a52a4a9bfab2448a810d091e8b9234458ef63e23"
+    },
+    {
+      "path": "site/releases/mg-acda7cabc743b1/assets/icon-512.png",
+      "bytes": 16837,
+      "sha256": "16ac1320a6e486137b03e276a00af6f78252331a05d09fa583d4d293db54e60d"
+    },
+    {
+      "path": "site/releases/mg-acda7cabc743b1/assets/social-card.png",
+      "bytes": 70050,
+      "sha256": "1d9fe4e3219ed2ab35b8f583e9a88bce9c742195c20957db21843ad06be776e3"
+    },
+    {
+      "path": "site/releases/mg-acda7cabc743b1/audio.mjs",
+      "bytes": 5846,
+      "sha256": "9ef843230faf0d75bdd733c1d1b7581bda5ab3413b32cdfbd348c2ec7deb89ae"
+    },
+    {
+      "path": "site/releases/mg-acda7cabc743b1/boot.mjs",
+      "bytes": 403,
+      "sha256": "5962acd91eed9a53f727e143c17274cafed6f7115b991f01852edde05100969a"
+    },
+    {
+      "path": "site/releases/mg-acda7cabc743b1/brand.css",
+      "bytes": 71262,
+      "sha256": "12059f417047d175e066bd76a92d4ae3a6515b535a035b42edcd7f22076eed4d"
+    },
+    {
+      "path": "site/releases/mg-acda7cabc743b1/content/levels.html",
+      "bytes": 128847,
+      "sha256": "994af2b67338c14f8178f6a91114edff8456ffaed0815b61575152b9410f749a"
+    },
+    {
+      "path": "site/releases/mg-acda7cabc743b1/core.mjs",
+      "bytes": 11733,
+      "sha256": "55f9f767de4a22688c983d169071dd1b13755c2739bfc9eacf9e4cd6f938c6cc"
+    },
+    {
+      "path": "site/releases/mg-acda7cabc743b1/faces.mjs",
+      "bytes": 4110,
+      "sha256": "7ce3fd7933dd05a55830551d51b0df352e91915a3dce5d927d8d331da76f5c56"
+    },
+    {
+      "path": "site/releases/mg-acda7cabc743b1/favicon.svg",
+      "bytes": 376,
+      "sha256": "744f271d7e716c7a61971f34d672aa5e7267483d0d0851ffe28c35b59ea71739"
+    },
+    {
+      "path": "site/releases/mg-acda7cabc743b1/game.css",
+      "bytes": 20878,
+      "sha256": "2076210b61d995c1260ef65804cc9922d1c7927bc22eca1f43789a7b60759d4f"
+    },
+    {
+      "path": "site/releases/mg-acda7cabc743b1/garden-core.mjs",
+      "bytes": 12657,
+      "sha256": "2a6e48dcdc3a8598208afd0f3974353409fea8bf2ba4355ea2f2cf5a0d4392ab"
+    },
+    {
+      "path": "site/releases/mg-acda7cabc743b1/garden-ui.mjs",
+      "bytes": 12055,
+      "sha256": "7d513148580dcd891d3669d84fbb7c7d19987faf930707702e1befb48ae9181a"
+    },
+    {
+      "path": "site/releases/mg-acda7cabc743b1/garden.css",
+      "bytes": 3890,
+      "sha256": "0dbcc5dfd9d36c33099add1bd608dd0580818747e695300683b2e5a6da387e91"
+    },
+    {
+      "path": "site/releases/mg-acda7cabc743b1/image-input.mjs",
+      "bytes": 1796,
+      "sha256": "d4735c4184f9a8549bd6641fb06939149fb9744fcf1eb668f071032ce3e7ba81"
+    },
+    {
+      "path": "site/releases/mg-acda7cabc743b1/leaderboard.mjs",
+      "bytes": 26627,
+      "sha256": "a6596e19d8ebb406275db661f1f443beb942d9fb71cafafdabcb07d67316f670"
+    },
+    {
+      "path": "site/releases/mg-acda7cabc743b1/operations.mjs",
+      "bytes": 2292,
+      "sha256": "8172c535ebefa56115513fd83cf96fc91c9f9a4beade3f342be43d90ee0c8a16"
+    },
+    {
+      "path": "site/releases/mg-acda7cabc743b1/parallax.mjs",
+      "bytes": 3265,
+      "sha256": "e2da3f41c3b8074825fdf6d7f1e7e5372e6eb41b787951124f2cd9f600c42548"
+    },
+    {
+      "path": "site/releases/mg-acda7cabc743b1/profile.mjs",
+      "bytes": 3376,
+      "sha256": "7c3bce0911a756e8fd8a8cb666ca728b883a0c6ace97c2e7eb10e3913dd45d1b"
+    },
+    {
+      "path": "site/releases/mg-acda7cabc743b1/pwa.mjs",
+      "bytes": 4892,
+      "sha256": "4e28e0b5848b3845bef99e27b6289e3d776ed66ddd5c98f5d68679dd36a9992a"
+    },
+    {
+      "path": "site/releases/mg-acda7cabc743b1/scenery.mjs",
+      "bytes": 6949,
+      "sha256": "9b725030eedd1f6bd889ca5f38b6200616fa563d912b236bd6a2840e6f5555ed"
+    },
+    {
+      "path": "site/releases/mg-acda7cabc743b1/scoring.mjs",
+      "bytes": 964,
+      "sha256": "8aa6e8725389f191cb82b9d7e6c7e280624dbe03f21a60fd94ef7d6168538f08"
+    },
+    {
+      "path": "site/releases/mg-acda7cabc743b1/storage.mjs",
+      "bytes": 3714,
+      "sha256": "b5c0f0322e23cedeff9b43c6ca19c0db21029d197eccbdc76cd9cf684e344461"
+    },
+    {
+      "path": "site/releases/mg-acda7cabc743b1/style.css",
+      "bytes": 23441,
+      "sha256": "199981196c6b2944aed4c02ada63381962afddbbe4516a52b9473350289740c4"
+    },
+    {
+      "path": "site/releases/mg-acda7cabc743b1/tile-input.mjs",
+      "bytes": 2336,
+      "sha256": "f8eb6c5efa768ef2e3f57ea797ebeaa17daab8c8469fea2df492c62284609759"
+    },
+    {
+      "path": "site/releases/mg-ae9bf6b429c341/app.mjs",
+      "bytes": 60531,
+      "sha256": "e6d2e6d5951705e012947dbe1afc11c60cd36b6b7d58f6cccdd296792e93e7d2"
+    },
+    {
+      "path": "site/releases/mg-ae9bf6b429c341/assets/apple-touch-icon.png",
+      "bytes": 4741,
+      "sha256": "9b2f0107ea7a28c6fc93840b3bd55b3b818331614461d613107260cde19ad7b2"
+    },
+    {
+      "path": "site/releases/mg-ae9bf6b429c341/assets/icon-192.png",
+      "bytes": 4203,
+      "sha256": "7dbdee5b5b787e477965a546a52a4a9bfab2448a810d091e8b9234458ef63e23"
+    },
+    {
+      "path": "site/releases/mg-ae9bf6b429c341/assets/icon-512.png",
+      "bytes": 16837,
+      "sha256": "16ac1320a6e486137b03e276a00af6f78252331a05d09fa583d4d293db54e60d"
+    },
+    {
+      "path": "site/releases/mg-ae9bf6b429c341/assets/social-card.png",
+      "bytes": 70050,
+      "sha256": "1d9fe4e3219ed2ab35b8f583e9a88bce9c742195c20957db21843ad06be776e3"
+    },
+    {
+      "path": "site/releases/mg-ae9bf6b429c341/audio.mjs",
+      "bytes": 5846,
+      "sha256": "9ef843230faf0d75bdd733c1d1b7581bda5ab3413b32cdfbd348c2ec7deb89ae"
+    },
+    {
+      "path": "site/releases/mg-ae9bf6b429c341/boot.mjs",
+      "bytes": 403,
+      "sha256": "5962acd91eed9a53f727e143c17274cafed6f7115b991f01852edde05100969a"
+    },
+    {
+      "path": "site/releases/mg-ae9bf6b429c341/brand.css",
+      "bytes": 27023,
+      "sha256": "5ba9ee26e435addfa51a5dae6ffaa5d51e6f9db23144c4de42b53eed52573145"
+    },
+    {
+      "path": "site/releases/mg-ae9bf6b429c341/content/levels.html",
+      "bytes": 128847,
+      "sha256": "994af2b67338c14f8178f6a91114edff8456ffaed0815b61575152b9410f749a"
+    },
+    {
+      "path": "site/releases/mg-ae9bf6b429c341/core.mjs",
+      "bytes": 11733,
+      "sha256": "55f9f767de4a22688c983d169071dd1b13755c2739bfc9eacf9e4cd6f938c6cc"
+    },
+    {
+      "path": "site/releases/mg-ae9bf6b429c341/faces.mjs",
+      "bytes": 4110,
+      "sha256": "7ce3fd7933dd05a55830551d51b0df352e91915a3dce5d927d8d331da76f5c56"
+    },
+    {
+      "path": "site/releases/mg-ae9bf6b429c341/favicon.svg",
+      "bytes": 376,
+      "sha256": "744f271d7e716c7a61971f34d672aa5e7267483d0d0851ffe28c35b59ea71739"
+    },
+    {
+      "path": "site/releases/mg-ae9bf6b429c341/game.css",
+      "bytes": 20878,
+      "sha256": "2076210b61d995c1260ef65804cc9922d1c7927bc22eca1f43789a7b60759d4f"
+    },
+    {
+      "path": "site/releases/mg-ae9bf6b429c341/garden-core.mjs",
+      "bytes": 12657,
+      "sha256": "2a6e48dcdc3a8598208afd0f3974353409fea8bf2ba4355ea2f2cf5a0d4392ab"
+    },
+    {
+      "path": "site/releases/mg-ae9bf6b429c341/garden-ui.mjs",
+      "bytes": 12055,
+      "sha256": "7d513148580dcd891d3669d84fbb7c7d19987faf930707702e1befb48ae9181a"
+    },
+    {
+      "path": "site/releases/mg-ae9bf6b429c341/garden.css",
+      "bytes": 3890,
+      "sha256": "0dbcc5dfd9d36c33099add1bd608dd0580818747e695300683b2e5a6da387e91"
+    },
+    {
+      "path": "site/releases/mg-ae9bf6b429c341/image-input.mjs",
+      "bytes": 1796,
+      "sha256": "d4735c4184f9a8549bd6641fb06939149fb9744fcf1eb668f071032ce3e7ba81"
+    },
+    {
+      "path": "site/releases/mg-ae9bf6b429c341/leaderboard.mjs",
+      "bytes": 26627,
+      "sha256": "a6596e19d8ebb406275db661f1f443beb942d9fb71cafafdabcb07d67316f670"
+    },
+    {
+      "path": "site/releases/mg-ae9bf6b429c341/operations.mjs",
+      "bytes": 2292,
+      "sha256": "8172c535ebefa56115513fd83cf96fc91c9f9a4beade3f342be43d90ee0c8a16"
+    },
+    {
+      "path": "site/releases/mg-ae9bf6b429c341/parallax.mjs",
+      "bytes": 3265,
+      "sha256": "e2da3f41c3b8074825fdf6d7f1e7e5372e6eb41b787951124f2cd9f600c42548"
+    },
+    {
+      "path": "site/releases/mg-ae9bf6b429c341/profile.mjs",
+      "bytes": 3376,
+      "sha256": "7c3bce0911a756e8fd8a8cb666ca728b883a0c6ace97c2e7eb10e3913dd45d1b"
+    },
+    {
+      "path": "site/releases/mg-ae9bf6b429c341/pwa.mjs",
+      "bytes": 4892,
+      "sha256": "4e28e0b5848b3845bef99e27b6289e3d776ed66ddd5c98f5d68679dd36a9992a"
+    },
+    {
+      "path": "site/releases/mg-ae9bf6b429c341/scenery.mjs",
+      "bytes": 6949,
+      "sha256": "9b725030eedd1f6bd889ca5f38b6200616fa563d912b236bd6a2840e6f5555ed"
+    },
+    {
+      "path": "site/releases/mg-ae9bf6b429c341/scoring.mjs",
+      "bytes": 964,
+      "sha256": "8aa6e8725389f191cb82b9d7e6c7e280624dbe03f21a60fd94ef7d6168538f08"
+    },
+    {
+      "path": "site/releases/mg-ae9bf6b429c341/storage.mjs",
+      "bytes": 3714,
+      "sha256": "b5c0f0322e23cedeff9b43c6ca19c0db21029d197eccbdc76cd9cf684e344461"
+    },
+    {
+      "path": "site/releases/mg-ae9bf6b429c341/style.css",
+      "bytes": 23441,
+      "sha256": "199981196c6b2944aed4c02ada63381962afddbbe4516a52b9473350289740c4"
+    },
+    {
+      "path": "site/releases/mg-ae9bf6b429c341/tile-input.mjs",
+      "bytes": 2336,
+      "sha256": "f8eb6c5efa768ef2e3f57ea797ebeaa17daab8c8469fea2df492c62284609759"
+    },
+    {
+      "path": "site/sw.js",
+      "bytes": 421,
+      "sha256": "d2338f97a17545c5eed86de17d789e20a28e6b8acd73a0a00873f2ad94720783"
+    },
+    {
+      "path": "storage.mjs",
+      "bytes": 3714,
+      "sha256": "b5c0f0322e23cedeff9b43c6ca19c0db21029d197eccbdc76cd9cf684e344461"
+    },
+    {
+      "path": "style.css",
+      "bytes": 23441,
+      "sha256": "199981196c6b2944aed4c02ada63381962afddbbe4516a52b9473350289740c4"
+    },
+    {
+      "path": "tests/audio-browser.mjs",
+      "bytes": 13532,
+      "sha256": "d1f99be48092226ebd65587d744a1e04aef161049db9109ea261e442f3c62178"
+    },
+    {
+      "path": "tests/audio.test.mjs",
+      "bytes": 6214,
+      "sha256": "f80e81ee9ac4f94b9ea6f3a69dbec730607f466292f16382771077d260e1256f"
+    },
+    {
+      "path": "tests/autosave-browser.mjs",
+      "bytes": 8228,
+      "sha256": "df7ad41417891e9f9f050542199a068379e41b99e86935487cbfe630cac26de6"
+    },
+    {
+      "path": "tests/autosave.test.mjs",
+      "bytes": 2654,
+      "sha256": "1dc5f8e78d083bd15e09e0d6adb1ba9a7f2cfffdddeede5e22f6e37f76598029"
+    },
+    {
+      "path": "tests/backup.mjs",
+      "bytes": 2334,
+      "sha256": "fe91ca16c21d7fa97d200cb9229bcb8bb29663e2e836b0b657aa69b34affac7d"
+    },
+    {
+      "path": "tests/browser.html",
+      "bytes": 2970,
+      "sha256": "f9c1eb89642509247b64b728aeb0c3f5fe6523f669f56c36a35bf2df48f32c1d"
+    },
+    {
+      "path": "tests/browser.mjs",
+      "bytes": 12721,
+      "sha256": "1b3e228d0b8c91d64b215aa75308fb0f32bce390f66d4aa43d4dba9aa08d5aa8"
+    },
+    {
+      "path": "tests/contracts.test.mjs",
+      "bytes": 5920,
+      "sha256": "51ec5963de7a4fb4d60b79d900f89dbe8a7df0903d9c2eb6a0caf15b7eeb543f"
+    },
+    {
+      "path": "tests/core.test.mjs",
+      "bytes": 4248,
+      "sha256": "b708636eada00a32d7f8a82797ed060f84cadee31648de2b44044f27597fe68e"
+    },
+    {
+      "path": "tests/footer-browser.mjs",
+      "bytes": 3129,
+      "sha256": "1af7bfbd6a81a0d595f3192d9ba78b399ca4f3d65152f9b126a9a639c9fc4345"
+    },
+    {
+      "path": "tests/garden-browser.mjs",
+      "bytes": 24462,
+      "sha256": "b995aceb69e49e6e8d55cc756d1e9f202dbd209cda8484bce4626318f24b1b54"
+    },
+    {
+      "path": "tests/garden.test.mjs",
+      "bytes": 12868,
+      "sha256": "f44aab47c102abf37b74e2ab19d3b13c5bd9e85482d44754268ef1337202738c"
+    },
+    {
+      "path": "tests/leaderboard-browser.mjs",
+      "bytes": 21713,
+      "sha256": "8ce5d3bcb161c3a59243f96ef49dc0718e40fa72032fba0c0a6ba7ef78c3f1bf"
+    },
+    {
+      "path": "tests/leaderboard-preview.mjs",
+      "bytes": 2264,
+      "sha256": "382d1ea69fff9dfd3211dd31f65abc6188ffaf4ec390d62621c4d77c1362439d"
+    },
+    {
+      "path": "tests/leaderboard.test.mjs",
+      "bytes": 5062,
+      "sha256": "c79d53c5aef761c479c1d008b8035af645a45df912efc109b0bea3796bf419e1"
+    },
+    {
+      "path": "tests/parallax-browser.mjs",
+      "bytes": 5268,
+      "sha256": "ed7701a2dcb0a1465619e0b9c7008a8a7f003525c3b6c109a94eaca91718fd01"
+    },
+    {
+      "path": "tests/parallax.test.mjs",
+      "bytes": 4128,
+      "sha256": "ca3e04448375216366023c45e9ff3581c7abecfc8f538cdaa568874679e32ac1"
+    },
+    {
+      "path": "tests/presentation.mjs",
+      "bytes": 7425,
+      "sha256": "9b022ac809378e465a2d70c43e450aa203c04996cc6473a1a14a24903aef8338"
+    },
+    {
+      "path": "tests/pwa-fixture.mjs",
+      "bytes": 2164,
+      "sha256": "4d409743ddb8b0ca4b49de17ac4da76a6ed0579ace7db8c5f96a66b57c6ba221"
+    },
+    {
+      "path": "tests/pwa.html",
+      "bytes": 898,
+      "sha256": "fb82112fe584e64ee815c908a7b068ad97240278bd28584835482839aab66320"
+    },
+    {
+      "path": "tests/release.test.mjs",
+      "bytes": 14579,
+      "sha256": "4eb7c098168551cf9f2d99a271a60c6977fe57fdc5a1497d08afbd963c5b93d7"
+    },
+    {
+      "path": "tests/review.mjs",
+      "bytes": 13382,
+      "sha256": "65a31577983644a30e5a68cec7c87e9aa806903efddfc461ba21ef199df7f9bb"
+    },
+    {
+      "path": "tests/score-cache.test.mjs",
+      "bytes": 2881,
+      "sha256": "8f5c7fd0ba11dcf27876c602804276b986901db4780f170948ccf5fa9131b814"
+    },
+    {
+      "path": "tests/scoring-pwa-browser.mjs",
+      "bytes": 5599,
+      "sha256": "f910e138da7683b3751eb5d239bc3659f47407a7ee2491e94501c2b09c238813"
+    },
+    {
+      "path": "tests/scoring-pwa.test.mjs",
+      "bytes": 5012,
+      "sha256": "5b7dee5bf5321566842f44ba5db2e478c22380db7218b3394e96bf0d5226e6d2"
+    },
+    {
+      "path": "tests/simple-sheet.test.mjs",
+      "bytes": 1864,
+      "sha256": "b895a75a8750879b1709dbaeafdc7b20b9401730ed54a9e1fc806cc5ca7c9247"
+    },
+    {
+      "path": "tests/speed-fixtures.mjs",
+      "bytes": 998,
+      "sha256": "06c325121007531c8c47ff483227c709930db6c5fe3f2e6910fb8edd2bde7695"
+    },
+    {
+      "path": "tests/timed-score.test.mjs",
+      "bytes": 3133,
+      "sha256": "54e9123e4337dfbe71f966779fd71df57cde4680f3bba0e3f78a383ce4b56174"
+    },
+    {
+      "path": "tests/totals.test.mjs",
+      "bytes": 2500,
+      "sha256": "63dd2587721f82d6b8dd9c6be92a94d439b65e6eda68050a020be6a0b5f584b2"
+    },
+    {
+      "path": "tests/touch.mjs",
+      "bytes": 7137,
+      "sha256": "fec26faa693f17f42b91176f2c9724748079fecd120e9d213ed22b732176b5c7"
+    },
+    {
+      "path": "tests/touch.test.mjs",
+      "bytes": 2876,
+      "sha256": "d545d6ba53fea01492cdec435ee94d0dd056c5329a744e087f8d64c8958e3ddd"
+    },
+    {
+      "path": "tile-input.mjs",
+      "bytes": 2336,
+      "sha256": "f8eb6c5efa768ef2e3f57ea797ebeaa17daab8c8469fea2df492c62284609759"
+    },
+    {
+      "path": "tools/audit.mjs",
+      "bytes": 1279,
+      "sha256": "87ed7435c9365b588283d5758fc9119543cee9a640dce75b6bb8a750cf332e82"
+    },
+    {
+      "path": "tools/author-levels.mjs",
+      "bytes": 3726,
+      "sha256": "9e2df5e8ebdcbaceeff934ae4fb82625a897423d50b24c2f590cd646a484e19e"
+    },
+    {
+      "path": "tools/build.mjs",
+      "bytes": 5230,
+      "sha256": "5ea2aa68c9f3a2c56ba0f50091219b853d54c882ad61f2bda4d181f030e4379d"
+    },
+    {
+      "path": "tools/challenge-console.mjs",
+      "bytes": 136,
+      "sha256": "8f5cc5538c9f17c6485dfb34ebdefd58c41f0090185bb622457916457bcc50a5"
+    },
+    {
+      "path": "tools/challenge-policy.mjs",
+      "bytes": 4471,
+      "sha256": "4d0c94edd7c84be710d9e6e14343dcad9c18c490dec196896557089e9dfa865c"
+    },
+    {
+      "path": "tools/check.mjs",
+      "bytes": 1542,
+      "sha256": "97ab2c750efc2b58e44039c361c8ab090cecf89ba72dc2c9595fee3c869406cf"
+    },
+    {
+      "path": "tools/contracts.mjs",
+      "bytes": 1964,
+      "sha256": "c00cb3f335d9ec4429da797cfecee52134b11a80a9ce333c93aa043049246b05"
+    },
+    {
+      "path": "tools/deploy-console.mjs",
+      "bytes": 136,
+      "sha256": "8f5cc5538c9f17c6485dfb34ebdefd58c41f0090185bb622457916457bcc50a5"
+    },
+    {
+      "path": "tools/deploy.mjs",
+      "bytes": 12683,
+      "sha256": "995eef22535fbed48afb01270a5fbd864236d4a61f346a76c1910e4977473a2a"
+    },
+    {
+      "path": "tools/gate.mjs",
+      "bytes": 10641,
+      "sha256": "6a1f8b7c2488e1798c99dbad29100775a5413acf757bc360821aafac9f8b91dc"
+    },
+    {
+      "path": "tools/leaderboard-console.mjs",
+      "bytes": 136,
+      "sha256": "8f5cc5538c9f17c6485dfb34ebdefd58c41f0090185bb622457916457bcc50a5"
+    },
+    {
+      "path": "tools/leaderboard-policy.mjs",
+      "bytes": 3820,
+      "sha256": "5ed26c108dc56310d66deac70a6f5f39c82b66f3d5b5775485fdd04fd85b1f39"
+    },
+    {
+      "path": "tools/pack-levels.mjs",
+      "bytes": 832,
+      "sha256": "969d08f0cde04e4669ca13c30c0d7f07556b841a49d0923283c6643eadc22f9e"
+    },
+    {
+      "path": "tools/prepare-template.mjs",
+      "bytes": 317,
+      "sha256": "dca6ef9133740d1e575efb1a5caa1f021d748fd0706592ae421d1381f3046829"
+    },
+    {
+      "path": "tools/render-assets.mjs",
+      "bytes": 1239,
+      "sha256": "35ebd13835609bb2c754d8f7c94fc2dd5bc83de3a4f769e15378248493cec910"
+    },
+    {
+      "path": "tools/serve.mjs",
+      "bytes": 3602,
+      "sha256": "ca5d34765eab05774f575c10e940a1c5fef61ad54a395f91ee7ff81a7f254557"
+    },
+    {
+      "path": "worker.mjs",
+      "bytes": 415,
+      "sha256": "25559c763f929c989f1f6c298d5908d0b443e6736fd0425c7417282b731dd546"
+    }
+  ]
+}

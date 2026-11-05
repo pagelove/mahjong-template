@@ -1,0 +1,110 @@
+ ASSETS.md                                          |   3 +
+ DESIGN-LICENSE                                     |  24 +
+ DESIGN.md                                          |   3 +
+ README.md                                          |   4 +
+ REVIEW.md                                          |  10 +
+ audit/CHANGELOG.md                                 |   7 +
+ audit/TEMPLATE-BOOTSTRAP.md                        |  16 +
+ audit/candidate-staged-diff.txt                    | 110 +++
+ audit/current/node-tests.tap                       | 140 ++--
+ audit/current/node.json                            |   8 +-
+ audit/source-sha256.json                           | 894 ++++++++++++++++++++
+ brand.css                                          | 648 +++++++++++++++
+ bun.lock                                           |  43 +
+ garden-core.mjs                                    |   2 +-
+ index.html                                         |   2 +-
+ package.json                                       |  10 +-
+ pagelove.html                                      |   1 +
+ site/index.html                                    | 895 +++++++++++++++++++++
+ site/manifest.webmanifest                          |   1 +
+ site/release.json                                  | 524 ++++++++++++
+ site/releases/mg-878b41214345b9/app.mjs            | 271 +++++++
+ .../mg-878b41214345b9/assets/apple-touch-icon.png  | Bin 0 -> 4741 bytes
+ .../releases/mg-878b41214345b9/assets/icon-192.png | Bin 0 -> 4203 bytes
+ .../releases/mg-878b41214345b9/assets/icon-512.png | Bin 0 -> 16837 bytes
+ .../mg-878b41214345b9/assets/social-card.png       | Bin 0 -> 70050 bytes
+ site/releases/mg-878b41214345b9/audio.mjs          |  45 ++
+ site/releases/mg-878b41214345b9/boot.mjs           |   3 +
+ .../releases/mg-878b41214345b9/content/levels.html |  64 ++
+ site/releases/mg-878b41214345b9/core.mjs           |  66 ++
+ site/releases/mg-878b41214345b9/faces.mjs          |  16 +
+ site/releases/mg-878b41214345b9/favicon.svg        |   1 +
+ site/releases/mg-878b41214345b9/game.css           | 143 ++++
+ site/releases/mg-878b41214345b9/garden-core.mjs    |  55 ++
+ site/releases/mg-878b41214345b9/garden-ui.mjs      |  34 +
+ site/releases/mg-878b41214345b9/garden.css         |  12 +
+ site/releases/mg-878b41214345b9/image-input.mjs    |  12 +
+ site/releases/mg-878b41214345b9/leaderboard.mjs    | 151 ++++
+ site/releases/mg-878b41214345b9/operations.mjs     |  28 +
+ site/releases/mg-878b41214345b9/parallax.mjs       |  22 +
+ site/releases/mg-878b41214345b9/profile.mjs        |  35 +
+ site/releases/mg-878b41214345b9/pwa.mjs            |  16 +
+ site/releases/mg-878b41214345b9/scenery.mjs        |  42 +
+ site/releases/mg-878b41214345b9/scoring.mjs        |  11 +
+ site/releases/mg-878b41214345b9/storage.mjs        |  34 +
+ site/releases/mg-878b41214345b9/style.css          |  23 +
+ site/releases/mg-878b41214345b9/tile-input.mjs     |  32 +
+ site/releases/mg-acda7cabc743b1/app.mjs            | 271 +++++++
+ .../mg-acda7cabc743b1/assets/apple-touch-icon.png  | Bin 0 -> 4741 bytes
+ .../releases/mg-acda7cabc743b1/assets/icon-192.png | Bin 0 -> 4203 bytes
+ .../releases/mg-acda7cabc743b1/assets/icon-512.png | Bin 0 -> 16837 bytes
+ .../mg-acda7cabc743b1/assets/social-card.png       | Bin 0 -> 70050 bytes
+ site/releases/mg-acda7cabc743b1/audio.mjs          |  45 ++
+ site/releases/mg-acda7cabc743b1/boot.mjs           |   3 +
+ site/releases/mg-acda7cabc743b1/brand.css          | 687 ++++++++++++++++
+ .../releases/mg-acda7cabc743b1/content/levels.html |  64 ++
+ site/releases/mg-acda7cabc743b1/core.mjs           |  66 ++
+ site/releases/mg-acda7cabc743b1/faces.mjs          |  16 +
+ site/releases/mg-acda7cabc743b1/favicon.svg        |   1 +
+ site/releases/mg-acda7cabc743b1/game.css           | 143 ++++
+ site/releases/mg-acda7cabc743b1/garden-core.mjs    |  55 ++
+ site/releases/mg-acda7cabc743b1/garden-ui.mjs      |  34 +
+ site/releases/mg-acda7cabc743b1/garden.css         |  12 +
+ site/releases/mg-acda7cabc743b1/image-input.mjs    |  12 +
+ site/releases/mg-acda7cabc743b1/leaderboard.mjs    | 151 ++++
+ site/releases/mg-acda7cabc743b1/operations.mjs     |  28 +
+ site/releases/mg-acda7cabc743b1/parallax.mjs       |  22 +
+ site/releases/mg-acda7cabc743b1/profile.mjs        |  35 +
+ site/releases/mg-acda7cabc743b1/pwa.mjs            |  16 +
+ site/releases/mg-acda7cabc743b1/scenery.mjs        |  42 +
+ site/releases/mg-acda7cabc743b1/scoring.mjs        |  11 +
+ site/releases/mg-acda7cabc743b1/storage.mjs        |  34 +
+ site/releases/mg-acda7cabc743b1/style.css          |  23 +
+ site/releases/mg-acda7cabc743b1/tile-input.mjs     |  32 +
+ site/releases/mg-ae9bf6b429c341/app.mjs            | 271 +++++++
+ .../mg-ae9bf6b429c341/assets/apple-touch-icon.png  | Bin 0 -> 4741 bytes
+ .../releases/mg-ae9bf6b429c341/assets/icon-192.png | Bin 0 -> 4203 bytes
+ .../releases/mg-ae9bf6b429c341/assets/icon-512.png | Bin 0 -> 16837 bytes
+ .../mg-ae9bf6b429c341/assets/social-card.png       | Bin 0 -> 70050 bytes
+ site/releases/mg-ae9bf6b429c341/audio.mjs          |  45 ++
+ site/releases/mg-ae9bf6b429c341/boot.mjs           |   3 +
+ site/releases/mg-ae9bf6b429c341/brand.css          | 648 +++++++++++++++
+ .../releases/mg-ae9bf6b429c341/content/levels.html |  64 ++
+ site/releases/mg-ae9bf6b429c341/core.mjs           |  66 ++
+ site/releases/mg-ae9bf6b429c341/faces.mjs          |  16 +
+ site/releases/mg-ae9bf6b429c341/favicon.svg        |   1 +
+ site/releases/mg-ae9bf6b429c341/game.css           | 143 ++++
+ site/releases/mg-ae9bf6b429c341/garden-core.mjs    |  55 ++
+ site/releases/mg-ae9bf6b429c341/garden-ui.mjs      |  34 +
+ site/releases/mg-ae9bf6b429c341/garden.css         |  12 +
+ site/releases/mg-ae9bf6b429c341/image-input.mjs    |  12 +
+ site/releases/mg-ae9bf6b429c341/leaderboard.mjs    | 151 ++++
+ site/releases/mg-ae9bf6b429c341/operations.mjs     |  28 +
+ site/releases/mg-ae9bf6b429c341/parallax.mjs       |  22 +
+ site/releases/mg-ae9bf6b429c341/profile.mjs        |  35 +
+ site/releases/mg-ae9bf6b429c341/pwa.mjs            |  16 +
+ site/releases/mg-ae9bf6b429c341/scenery.mjs        |  42 +
+ site/releases/mg-ae9bf6b429c341/scoring.mjs        |  11 +
+ site/releases/mg-ae9bf6b429c341/storage.mjs        |  34 +
+ site/releases/mg-ae9bf6b429c341/style.css          |  23 +
+ site/releases/mg-ae9bf6b429c341/tile-input.mjs     |  32 +
+ site/sw.js                                         |   5 +
+ tests/garden.test.mjs                              |   2 +-
+ tools/build.mjs                                    |   4 +-
+ tools/challenge-console.mjs                        |  30 +-
+ tools/contracts.mjs                                |   2 +-
+ tools/deploy-console.mjs                           |   6 +-
+ tools/deploy.mjs                                   |   2 +-
+ tools/leaderboard-console.mjs                      |  29 +-
+ tools/prepare-template.mjs                         |   1 +
+ 109 files changed, 7962 insertions(+), 147 deletions(-)

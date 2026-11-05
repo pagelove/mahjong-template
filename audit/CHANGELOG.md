@@ -411,3 +411,10 @@
 ## MG-063 — footer correction live
 - Pushed source f5c1eefb8d6492301b6b942699513dc78b44249b published as1.9.1/mg-878b41214345b9 after verified675file/97directory/20112204byte backup;29 public files verified. Prior releases/data retained; publisher exited. Old score records match backup(1legacy/29balanced/0challenge).
 - Existing client received the update notice, then retained the completed board/time/score and sampled mixer after explicit save/update. Actual1920×1080 home has8px separation between branding and save text; play uses its own status slot. Raw geometry/screenshot/errors retained in audit/footer-overlap; temporary viewport reset. Final evidence commit/push completes the patch.
+
+## TEMPLATE-001 — 2026-11-04T23:45:18.8381651Z
+- Actor: Codex; reference: TEMPLATE-BOOTSTRAP.md. Preserve upstream bfd5969925eff07c58083b2afcd5c4a7cf03e959, source/history/license and baseline68 passing tests. Prior adaptation command used incorrect working directory and made no product edits; its passing output was baseline only. Current plan: shared semantic chrome, current-origin links, explicit new-site build origin, template packaging; disable original publisher network path while keeping injected transport tests. Node/browser template re-acceptance pending.
+
+
+## TEMPLATE-002 — 2026-11-04T23:46:02.5512205Z
+- Actor: Codex; reference: TEMPLATE-001. Added shared design token chrome, origin-neutral build metadata and current-origin share links; retained game logic/layouts/art and full MIT history. Original-host network publisher guarded and console publishers disabled; added manifest/prepare command/site output. Full copied design CSS exceeded400KB initial budget at410893; removed unused component/profile CSS, retaining needed foundations/semantic/typography and semantic chrome. Adapted68 tests now pass; candidate mg-ae9bf6b429c341 initial366654 bytes. Template browser/live release checks pending; upstream evidence remains historical.

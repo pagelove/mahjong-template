@@ -1,0 +1,1 @@
+import {buildProject} from './build.mjs';import fs from 'node:fs/promises';const result=await buildProject();await fs.mkdir('site',{recursive:true});await fs.cp('dist','site',{recursive:true});console.log('Prepared site/ candidate '+result.id+'; live leaderboard policy and target-host acceptance remain separate.');
