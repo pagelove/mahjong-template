@@ -1,5 +1,5 @@
 {
-  "utc": "2026-11-05T12:57:34.596Z",
+  "utc": "2026-11-05T13:39:28.922Z",
   "actor": "Codex",
   "repo": "pagelove/mahjong-template",
   "scope": "Candidate source closure; audit files excluded to avoid recursive receipts",
@@ -47,13 +47,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 21474,
-      "sha256": "dda1bd37fd36a66fb77909b128cf84ac9f96510ffc9fe0afad3055d3a0090fee"
+      "bytes": 22586,
+      "sha256": "1af2e0c8909b70598aacd5971e66dc200a9e300e91d3f37a00b8b8d95c2cc6ec"
     },
     {
       "path": "REVIEW.md",
-      "bytes": 1406,
-      "sha256": "2b66f7f320f29425b23e613c49ab0324edce8bbeb690d5e8455929aefadfe3c2"
+      "bytes": 2518,
+      "sha256": "5419f241c419bf07e202e8a37bca9de5cb082fa4ab47966f92c77c062ffc66b2"
     },
     {
       "path": "app.mjs",

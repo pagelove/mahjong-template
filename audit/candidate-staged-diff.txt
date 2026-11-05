@@ -1,41 +1,5 @@
- README.md                                          |   2 +
- audit/TEMPLATE-BOOTSTRAP.md                        |   6 +
- audit/current/node-tests.tap                       | 218 +++----
- audit/current/node.json                            |  11 +-
- audit/source-sha256.json                           | 170 +++++-
- garden-core.mjs                                    |   2 +-
- manifest.webmanifest                               |   2 +-
- pwa.mjs                                            |   3 +-
- site/index.html                                    |   8 +-
- site/manifest.webmanifest                          |   2 +-
- site/release.json                                  |  86 +--
- site/releases/mg-80c17d6c5f881d/app.mjs            | 271 +++++++++
- .../mg-80c17d6c5f881d/assets/apple-touch-icon.png  | Bin 0 -> 4741 bytes
- .../releases/mg-80c17d6c5f881d/assets/icon-192.png | Bin 0 -> 4203 bytes
- .../releases/mg-80c17d6c5f881d/assets/icon-512.png | Bin 0 -> 16837 bytes
- .../mg-80c17d6c5f881d/assets/social-card.png       | Bin 0 -> 70050 bytes
- site/releases/mg-80c17d6c5f881d/audio.mjs          |  45 ++
- site/releases/mg-80c17d6c5f881d/boot.mjs           |   3 +
- site/releases/mg-80c17d6c5f881d/brand.css          | 648 +++++++++++++++++++++
- .../releases/mg-80c17d6c5f881d/content/levels.html |  64 ++
- site/releases/mg-80c17d6c5f881d/core.mjs           |  66 +++
- site/releases/mg-80c17d6c5f881d/faces.mjs          |  16 +
- site/releases/mg-80c17d6c5f881d/favicon.svg        |   1 +
- site/releases/mg-80c17d6c5f881d/game.css           | 143 +++++
- site/releases/mg-80c17d6c5f881d/garden-core.mjs    |  55 ++
- site/releases/mg-80c17d6c5f881d/garden-ui.mjs      |  34 ++
- site/releases/mg-80c17d6c5f881d/garden.css         |  12 +
- site/releases/mg-80c17d6c5f881d/image-input.mjs    |  12 +
- site/releases/mg-80c17d6c5f881d/leaderboard.mjs    | 151 +++++
- site/releases/mg-80c17d6c5f881d/operations.mjs     |  28 +
- site/releases/mg-80c17d6c5f881d/parallax.mjs       |  22 +
- site/releases/mg-80c17d6c5f881d/profile.mjs        |  35 ++
- site/releases/mg-80c17d6c5f881d/pwa.mjs            |  17 +
- site/releases/mg-80c17d6c5f881d/scenery.mjs        |  42 ++
- site/releases/mg-80c17d6c5f881d/scoring.mjs        |  11 +
- site/releases/mg-80c17d6c5f881d/storage.mjs        |  34 ++
- site/releases/mg-80c17d6c5f881d/style.css          |  23 +
- site/releases/mg-80c17d6c5f881d/tile-input.mjs     |  32 +
- site/sw.js                                         |   2 +-
- tests/namespace.test.mjs                           |   4 +
- 40 files changed, 2111 insertions(+), 170 deletions(-)
+ README.md                   | 10 ++++++++++
+ REVIEW.md                   | 11 ++++++++++-
+ audit/TEMPLATE-BOOTSTRAP.md |  5 +++++
+ audit/source-sha256.json    | 10 +++++-----
+ 4 files changed, 30 insertions(+), 6 deletions(-)

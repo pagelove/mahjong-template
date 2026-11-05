@@ -118,3 +118,13 @@ Time-adjusted points (1.8.0): the completion dialog removes Stay here a moment a
 Reuses the full MIT Mahjong Garden source/history. Original audit entries describe the upstream release, not this template candidate. UI chrome uses Pagelove design-system tokens in brand.css; game rules/content retained. Run bun install, bun run check, then bun run prepare. Only generated site/ contents are installable. Set PAGELOVE_SITE_ORIGIN to the new HTTPS public origin before preparing; otherwise canonical metadata uses example.invalid. Sharing uses current browser origin. Original-host network publication is disabled; injected test transports remain available. No writes to the upstream game host are authorized. Same-origin shared boards require separately verified data policies; local progress remains independent.
 
 Template installs can use a subdirectory: update checks/service-worker scope, manifest launch and challenge links stay inside the current app directory. An explicit PWA scope must equal that directory. Shared score services still require separately accepted same-site policies.
+
+## Live fictional review
+
+[Open this app preview](https://camel-boom-0460.onpagelove.com/template-review-20261105/mahjong-template/index.html) · [All app previews](https://camel-boom-0460.onpagelove.com/).
+
+The disposable review copy contains only fictional data and is publicly accessible. Source files were staged create-only, then verified through both owner WebDAV and public reads. Browser tasks loaded the deployed app. A390×844 browser viewport was checked; this is emulation, not physical-phone acceptance.
+
+Live first-level hint-to-win journey passed. Subdirectory-scoped update handling and relative launch/share links are included. Shared score services remain unaccepted.
+
+Pagelove native authentication has not been shown to fail. A401 on an application route with no matching write grant is not evidence that a separate identity system is required. Owner WebDAV authoring is already authenticated; browser actor/session integration and exact per-app read/write rules remain to be established before enabling protected functions. Public reading and local game play need no account by themselves.

@@ -20,3 +20,8 @@ Actor: Codex. Live multi-app fixture requires subdirectory-safe game install. Re
 
 ## TEMPLATE-006 — 2026-11-05T12:57:32.7534161Z
 Actor: Codex; reference005. Added exact-directory PWA scope, relative manifest launch and install-path-preserving challenge links. All71 tests pass (68 prior plus3 namespace cases), candidate mg-80c17d6c5f881d initial366795 bytes under400000 budget. Prepared tracked site payload; older immutable releases retained. Live browser/recovery checks remain separate; shared score policies not enabled. Source hashes and staged review reconciled for this namespace batch before push.
+
+## LIVE-REVIEW-20261105 — 2026-11-05T13:39:22.222Z
+Actor: Codex. Plan before documentation: record actual disposable live preview, owner/public source readback and observed browser tasks, retain pending native browser-account/private-app acceptance, and reconcile hashes/diff before publishing documentation. No runtime permission or data change in this batch. Source: approved execution/live fixture and user auth clarification. Affected README.md, REVIEW.md, audit closure.
+
+Result: documented the verified fictional live review and remaining boundaries without claiming authenticated application acceptance. Separate isolated capability fixtures passed valid200, invalid422, missing428, stale412, concurrent200+412, selector206 and denied reads; those fixture results are not inherited by this app. Temporary fixture PUT access was closed with explicit Deny controls and anonymous401 readback. No credential included. Code and installed records unchanged by this documentation batch.

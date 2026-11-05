@@ -8,3 +8,12 @@ Actor: Codex. Adapted source uses the existing MIT Mahjong Garden implementation
 - PENDING: live shared leaderboard/challenge policy, privacy/authorization and target-host update/recovery. Existing publishing entry points cannot write to the original upstream host. Shared features require accepted same-site policies before use; no verified competitive score claim.
 
 The existing gameplay is reused; historical upstream production acceptance is not automatically inherited by this template destination. Use fictional test names, not real user data, while shared integration is pending. No live template-host deployment is claimed.
+## Live fictional review
+
+[Open this app preview](https://camel-boom-0460.onpagelove.com/template-review-20261105/mahjong-template/index.html) · [All app previews](https://camel-boom-0460.onpagelove.com/).
+
+The disposable review copy contains only fictional data and is publicly accessible. Source files were staged create-only, then verified through both owner WebDAV and public reads. Browser tasks loaded the deployed app. A390×844 browser viewport was checked; this is emulation, not physical-phone acceptance.
+
+Live first-level hint-to-win journey passed. Subdirectory-scoped update handling and relative launch/share links are included. Shared score services remain unaccepted.
+
+Pagelove native authentication has not been shown to fail. A401 on an application route with no matching write grant is not evidence that a separate identity system is required. Owner WebDAV authoring is already authenticated; browser actor/session integration and exact per-app read/write rules remain to be established before enabling protected functions. Public reading and local game play need no account by themselves.
