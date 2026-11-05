@@ -1,7 +1,7 @@
 {
-  "utc": "2026-11-05T04:07:15.124Z",
-  "candidate": "mg-ae9bf6b429c341",
-  "sourceDigest": "ae9bf6b429c341b25f3611ff0da253fe4c3e2f9962141b7196b3643778a35788",
+  "utc": "2026-11-05T12:56:59.555Z",
+  "candidate": "mg-80c17d6c5f881d",
+  "sourceDigest": "80c17d6c5f881dc140aec1b4e89e5001ea51b96ae086019c25b6aef768d26fb3",
   "node": "24.19.0",
   "command": [
     "node",
@@ -13,6 +13,7 @@
     "tests/core.test.mjs",
     "tests/garden.test.mjs",
     "tests/leaderboard.test.mjs",
+    "tests/namespace.test.mjs",
     "tests/parallax.test.mjs",
     "tests/release.test.mjs",
     "tests/score-cache.test.mjs",
@@ -22,7 +23,7 @@
     "tests/totals.test.mjs",
     "tests/touch.test.mjs"
   ],
-  "tests": 68,
+  "tests": 71,
   "exitCode": 0,
-  "outputSha256": "8bc16620bb2bbc6e7a576e14d1bdafa7b224b7c785b0f82c6b888138ea00a22e"
+  "outputSha256": "dc4f0019b21754f81f1077e7cc391323b08e19aeb5003820a4831b096f1bdecd"
 }
