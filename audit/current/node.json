@@ -1,5 +1,5 @@
 {
-  "utc": "2026-11-05T17:48:09.301Z",
+  "utc": "2026-11-06T02:15:40.430Z",
   "candidate": "mg-17c8fef7b59488",
   "sourceDigest": "17c8fef7b594881095423acb589569d23ac586b928853a2cc7faa11da0a0af09",
   "node": "24.19.0",
@@ -26,5 +26,5 @@
   ],
   "tests": 82,
   "exitCode": 0,
-  "outputSha256": "117a6451cdaa7fa3dc683554b8dbcdb4be20d32d8be25593e0fe6dab378e03b0"
+  "outputSha256": "4cfcc5fa7df6a658f74ed6f981969e01e5e84054aa703cb6416610dde2ed7d9b"
 }

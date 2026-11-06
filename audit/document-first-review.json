@@ -1,0 +1,202 @@
+{
+  "utc": "2026-11-06T02:46:02.522Z",
+  "actor": "Codex",
+  "guideEdition": "2.4",
+  "sourceBase": "5b0f2d5d709a98ce7c3d3b58b9a791f92087b84d",
+  "checks": [
+    {
+      "name": "check",
+      "code": 0
+    },
+    {
+      "name": "test",
+      "code": 0
+    },
+    {
+      "name": "prepare",
+      "code": 0
+    }
+  ],
+  "browser": "No new visual behavior; prior browser evidence remains historical. Current local source/engine checks recorded separately.",
+  "limits": [
+    "No new live private data or host policy acceptance claimed.",
+    "Physical device and assistive-technology checks remain separate."
+  ],
+  "files": [
+    {
+      "file": "AGENTS.md",
+      "sha256": "a883e3701c1568867e2982c3f53439287b83dbec8672e8705f3c1dbab2d711bd",
+      "bytes": 561
+    },
+    {
+      "file": "DOCUMENT-FIRST-REVIEW.md",
+      "sha256": "17626eb36c52643c595f6a31153d645bcb224c837d1608a5d587a4094d391b22",
+      "bytes": 3491
+    },
+    {
+      "file": "docs/architecture.md",
+      "sha256": "52f966ccd76f3150903660e6595d24979a53afff43682d9d70d1713c1d89e108",
+      "bytes": 466
+    },
+    {
+      "file": "site/releases/mg-17c8fef7b59488/app.mjs",
+      "sha256": "e6d2e6d5951705e012947dbe1afc11c60cd36b6b7d58f6cccdd296792e93e7d2",
+      "bytes": 60531
+    },
+    {
+      "file": "site/releases/mg-17c8fef7b59488/assets/apple-touch-icon.png",
+      "sha256": "9b2f0107ea7a28c6fc93840b3bd55b3b818331614461d613107260cde19ad7b2",
+      "bytes": 4741
+    },
+    {
+      "file": "site/releases/mg-17c8fef7b59488/assets/icon-192.png",
+      "sha256": "7dbdee5b5b787e477965a546a52a4a9bfab2448a810d091e8b9234458ef63e23",
+      "bytes": 4203
+    },
+    {
+      "file": "site/releases/mg-17c8fef7b59488/assets/icon-512.png",
+      "sha256": "16ac1320a6e486137b03e276a00af6f78252331a05d09fa583d4d293db54e60d",
+      "bytes": 16837
+    },
+    {
+      "file": "site/releases/mg-17c8fef7b59488/assets/social-card.png",
+      "sha256": "1d9fe4e3219ed2ab35b8f583e9a88bce9c742195c20957db21843ad06be776e3",
+      "bytes": 70050
+    },
+    {
+      "file": "site/releases/mg-17c8fef7b59488/audio.mjs",
+      "sha256": "9ef843230faf0d75bdd733c1d1b7581bda5ab3413b32cdfbd348c2ec7deb89ae",
+      "bytes": 5846
+    },
+    {
+      "file": "site/releases/mg-17c8fef7b59488/boot.mjs",
+      "sha256": "5962acd91eed9a53f727e143c17274cafed6f7115b991f01852edde05100969a",
+      "bytes": 403
+    },
+    {
+      "file": "site/releases/mg-17c8fef7b59488/brand.css",
+      "sha256": "5ba9ee26e435addfa51a5dae6ffaa5d51e6f9db23144c4de42b53eed52573145",
+      "bytes": 27023
+    },
+    {
+      "file": "site/releases/mg-17c8fef7b59488/content/levels.html",
+      "sha256": "994af2b67338c14f8178f6a91114edff8456ffaed0815b61575152b9410f749a",
+      "bytes": 128847
+    },
+    {
+      "file": "site/releases/mg-17c8fef7b59488/core.mjs",
+      "sha256": "55f9f767de4a22688c983d169071dd1b13755c2739bfc9eacf9e4cd6f938c6cc",
+      "bytes": 11733
+    },
+    {
+      "file": "site/releases/mg-17c8fef7b59488/faces.mjs",
+      "sha256": "7ce3fd7933dd05a55830551d51b0df352e91915a3dce5d927d8d331da76f5c56",
+      "bytes": 4110
+    },
+    {
+      "file": "site/releases/mg-17c8fef7b59488/favicon.svg",
+      "sha256": "744f271d7e716c7a61971f34d672aa5e7267483d0d0851ffe28c35b59ea71739",
+      "bytes": 376
+    },
+    {
+      "file": "site/releases/mg-17c8fef7b59488/game.css",
+      "sha256": "2076210b61d995c1260ef65804cc9922d1c7927bc22eca1f43789a7b60759d4f",
+      "bytes": 20878
+    },
+    {
+      "file": "site/releases/mg-17c8fef7b59488/garden-core.mjs",
+      "sha256": "67200fe7ba16768d3313a6057842debb46f7975d1facd1b112e1c5774689b7b6",
+      "bytes": 12672
+    },
+    {
+      "file": "site/releases/mg-17c8fef7b59488/garden-ui.mjs",
+      "sha256": "7d513148580dcd891d3669d84fbb7c7d19987faf930707702e1befb48ae9181a",
+      "bytes": 12055
+    },
+    {
+      "file": "site/releases/mg-17c8fef7b59488/garden.css",
+      "sha256": "0dbcc5dfd9d36c33099add1bd608dd0580818747e695300683b2e5a6da387e91",
+      "bytes": 3890
+    },
+    {
+      "file": "site/releases/mg-17c8fef7b59488/image-input.mjs",
+      "sha256": "d4735c4184f9a8549bd6641fb06939149fb9744fcf1eb668f071032ce3e7ba81",
+      "bytes": 1796
+    },
+    {
+      "file": "site/releases/mg-17c8fef7b59488/leaderboard.mjs",
+      "sha256": "a6596e19d8ebb406275db661f1f443beb942d9fb71cafafdabcb07d67316f670",
+      "bytes": 26627
+    },
+    {
+      "file": "site/releases/mg-17c8fef7b59488/operations.mjs",
+      "sha256": "8172c535ebefa56115513fd83cf96fc91c9f9a4beade3f342be43d90ee0c8a16",
+      "bytes": 2292
+    },
+    {
+      "file": "site/releases/mg-17c8fef7b59488/parallax.mjs",
+      "sha256": "e2da3f41c3b8074825fdf6d7f1e7e5372e6eb41b787951124f2cd9f600c42548",
+      "bytes": 3265
+    },
+    {
+      "file": "site/releases/mg-17c8fef7b59488/profile.mjs",
+      "sha256": "7c3bce0911a756e8fd8a8cb666ca728b883a0c6ace97c2e7eb10e3913dd45d1b",
+      "bytes": 3376
+    },
+    {
+      "file": "site/releases/mg-17c8fef7b59488/pwa.mjs",
+      "sha256": "17126f1f986e25ddcb6b768d5cdae352ac9b65177e048f542b44538721332814",
+      "bytes": 5015
+    },
+    {
+      "file": "site/releases/mg-17c8fef7b59488/scenery.mjs",
+      "sha256": "9b725030eedd1f6bd889ca5f38b6200616fa563d912b236bd6a2840e6f5555ed",
+      "bytes": 6949
+    },
+    {
+      "file": "site/releases/mg-17c8fef7b59488/scoring.mjs",
+      "sha256": "8aa6e8725389f191cb82b9d7e6c7e280624dbe03f21a60fd94ef7d6168538f08",
+      "bytes": 964
+    },
+    {
+      "file": "site/releases/mg-17c8fef7b59488/storage.mjs",
+      "sha256": "b5c0f0322e23cedeff9b43c6ca19c0db21029d197eccbdc76cd9cf684e344461",
+      "bytes": 3714
+    },
+    {
+      "file": "site/releases/mg-17c8fef7b59488/style.css",
+      "sha256": "199981196c6b2944aed4c02ada63381962afddbbe4516a52b9473350289740c4",
+      "bytes": 23441
+    },
+    {
+      "file": "site/releases/mg-17c8fef7b59488/tile-input.mjs",
+      "sha256": "f8eb6c5efa768ef2e3f57ea797ebeaa17daab8c8469fea2df492c62284609759",
+      "bytes": 2336
+    },
+    {
+      "file": "README.md",
+      "sha256": "90a4a2f42dd9c9b87ea3ce484c606309a0ea81d0cc78812e09d8d4859489e04e",
+      "bytes": 23519
+    },
+    {
+      "file": "site/index.html",
+      "sha256": "ed3521fb248713d65980e970c6681b2388054200f00e1bdeb83ec9f976e8a4a5",
+      "bytes": 99599
+    },
+    {
+      "file": "site/manifest.webmanifest",
+      "sha256": "07a141b9a6e0fa59013b26ba6a2e68079c8546816787787fd7894acbc926253b",
+      "bytes": 495
+    },
+    {
+      "file": "site/release.json",
+      "sha256": "3704534a7fb77c8c1db62680d34170f298c805b7186c5957bce462c97fbb3eb2",
+      "bytes": 17326
+    },
+    {
+      "file": "site/sw.js",
+      "sha256": "f4e05a71ae129e22df95104698f16a97759205a4830b0c6169fbaf88ef447f7b",
+      "bytes": 421
+    }
+  ]
+}
