@@ -1,3 +1,4 @@
+import{mountCollectionFinder}from'./collection-finder.mjs';
 import {freshGarden,validateGarden,creditJourney,buyDecoration,stampGarden,bindChallenge,challengeWon,challengeSpec,invitation,friendChallenge,matchFeedback,restorationSVG,rememberLayers,feedbackIdentity} from './garden-core.mjs';
 import {scoreRun,balancedScore} from './scoring.mjs';
 import {gardenSVG,gardens} from './scenery.mjs';
@@ -269,3 +270,5 @@ function requestReturn(){if(activeSpec&&!finished()&&(run.matches||run.shuffles)
 async function leaveChallenge(){if(!garden.active||!garden.returnRun)return false;return transition(async()=>{if(!await persistNow())return false;const previous=structuredClone(garden.returnRun);validateProfile({...snapshot(),run:previous},levels);run=previous;garden.active=null;garden.returnRun=null;activeSpec=null;selected=null;hintIds=[];for(const d of $$('dialog[open]'))closeDialog(d);workingGeneration++;renderJourney();renderBoard();showScreen('play',{focus:false});message('Your journey is just as you left it.');const saved=await persistNow();if(finished())complete();return saved;});}
 
 void init();
+
+mountCollectionFinder({root:'#level-library',card:'.level-card',group:'.chapter-group',label:'Find a garden',status:card=>({completed:card.querySelector('.card-stars')?.textContent.includes('★')})});
